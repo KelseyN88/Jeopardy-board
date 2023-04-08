@@ -1,0 +1,197 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Nanum Brush Script";
+  margin: auto;
+  /* grid-area: header; */
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: #a8ba9a;
+}
+
+h2 {
+  text-align: center;
+  color: #b87d4b;
+  font-size: 3rem;
+  font-weight: bold; 
+  font-family: "Amatic SC";
+  margin: auto;
+  padding-bottom: 1rem;
+  /* grid-area: content; */
+}
+
+/*  h3 {
+  color: #5c8001;
+  font-size: 2rem;
+} */
+
+
+h3 {
+  font-family: "Amatic SC";
+  color: #5c8001;
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.lantern {
+  width: 30rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bold; 
+  font-family: "Amatic SC";
+  border-radius: 10px;
+  /* color: rbga(247, 147, 76, 0.8); */
+  margin: auto;
+  /* grid-area: button; */
+  padding: 0.5rem;
+}
+
+.lantern:hover {
+  box-shadow: 0 5px 15px #f5b700;
+}
+
+.next {
+  width: 15rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bold; 
+  font-family: "Amatic SC";
+  border-radius: 10px;
+  margin: auto;
+/*     padding-top: 1rem; */
+  padding: 0.5rem;
+  grid-area: next;
+  
+}
+
+.next:hover {
+  box-shadow: 0 5px 15px #f5b700;
+}
+
+a:hover {
+  color: #f5b700;
+}
+
+
+img {
+  margin: auto;
+  /* grid-area: content; */
+  border: solid 5px #606c38;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+body {
+  background-color: #31263e;
+  margin: 0;
+ 
+}
+
+
+p {
+  font-weight: bold;
+  font-family: "Amatic SC";
+  grid-area: first;
+/*     width: 25rem; */
+  text-align: center;
+  border: 1px solid #b87d4b;
+  color: white;
+  font-size: 2rem;
+}
+
+.cat {
+  border: 1px solid #b87d4b;
+  font-size: 2rem;
+  color: #5c8001;
+  font-family: "Amatic SC";
+  font-weight: bold;
+  text-align: center;
+}
+
+.first {
+  border: 1px solid #b87d4b;
+  font-size: 2rem;
+  color:white;
+  font-family: "Amatic SC";
+  font-weight: bold;
+  text-align: center;
+}
+
+.second {
+  border: 1px solid #b87d4b;
+  font-size: 2rem;
+  color:white;
+  font-family: "Amatic SC";
+  font-weight: bold;
+  text-align: center;
+}
+
+.third {
+  border: 1px solid #b87d4b;
+  font-size: 2rem;
+  color:white;
+  font-family: "Amatic SC";
+  font-weight: bold;
+  text-align: center;
+}
+
+.fourth {
+border: 1px solid #b87d4b;
+font-size: 2rem;
+  color:white;
+  font-family: "Amatic SC";
+  font-weight: bold;
+text-align: center;
+}
+
+.fifth {
+border: 1px solid #b87d4b;
+font-size: 2rem;
+  color:white;
+  font-family: "Amatic SC";
+  font-weight: bold;
+text-align: center;
+}
+
+
+.game-board {
+  border: 1px solid #b87d4b;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "cat cat cat cat cat cat"
+    "first first first first first first"
+    "second second second second second second"
+    "third third third third third third"
+    "fourth fourth fourth fourth fourth fourth"
+    "fifth fifth fifth fifth fifth fifth"
+    "info info info info info next"
+    "footer footer footer footer footer footer";
+}
+
+
+.footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  /* grid-area: footer; */
+}
